@@ -4,17 +4,16 @@
 // method of scanner : nextInt()
 // nextFloat()
 // nextDouble()
-// next()
-// nextLine()
+// next() - to read string
+// nextLine() - to read sentence
 // nextByte()
 // nextShort()
 // nextLong()
 // nextBoolean()
 
-// hasNextInt()
+// hasNextInt() - true or false (if input is integer true else false ddddd)
 // hasNextFloat()
 
-import java.lang.*;
 import java.util.*;
 
 public class KeyRead {
