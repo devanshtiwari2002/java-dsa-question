@@ -1,16 +1,20 @@
 import java.lang.*; // lang is a package 
 
-class MyFirst { // class name should be same as file name
-   public static void main(String arg[]) { // main method
-      // main method should not return anything so void ,
-      // jvm should be able to see the main method so make public
-      // be can not use class unless we have cleared object , but if we want to create
-      // a class without object then it should be decleraed static
-      {
+class MyFirst { 
+   public static void main(String arg[]) { 
          System.out.println("Hello world");
       }
    }
-}
 
-// MyFirst.class is a file after compile (byte coded)
-// jvm will call MyFirst.main()
+
+// Explanation:
+// - The class name should match the file name or compile using the file name and run using the class name.
+// - The main method is the starting point of execution for the Java program.
+// - It should be declared as public so that JVM can access it.
+// - It should be declared as static so that JVM can call it without creating an instance of the class.
+// - It should not return anything, hence the return type is void.
+// - The parameter String[] args is used for command-line arguments.
+// - The System.out.println() method is used to print the message "Hello world" to the console.
+// - The import statement is unnecessary here as classes from the java.lang package are automatically imported by Java.
+// - The class file generated after compilation is MyFirst.class.
+// - During execution, the JVM will call the main method to start the program.
