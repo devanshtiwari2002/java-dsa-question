@@ -21,7 +21,7 @@ public class heelo {
         Scanner s = new Scanner(System.in);
         // used by createing objext , Scanner{class name} s{refrence} = new
         // Scanner{constructor}(System.in){System.in is accociated with keryboard}
-
+ 
         int a,b,c;
         System.out.println("enter two number ");
 
